@@ -9,6 +9,10 @@
     from {background-color: rgb(255, 0, 0);}
     to {background-color: rgb(0, 0, 0);}
   }
+  @keyframes hello {
+    from {color: rgb(255, 0, 0);}
+    to {color: rgb(255, 255, 255);}
+  }
 
   *{
     padding: 0;
@@ -143,6 +147,9 @@
 h3{
     text-align: center;
     margin-top: 2%;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .grid-child{
     padding:2%;
@@ -179,4 +186,8 @@ h3{
 }
 a{
     color: white;
+}
+.txt{
+  text-align: center;
+  font-size: 500%;
 }
