@@ -172,13 +172,9 @@ h3{
     }
 }
 .wrapper{
-    margin-top:5%;
+    margin-top:80px;
 }
-@media (max-width:1230px){
-    .wrapper{
-        margin-top: 10%;
-    }
-}
+
 @media (max-width:530px){
     .wrapper{
         margin-top: 22%;
@@ -190,4 +186,15 @@ a{
 .txt{
   text-align: center;
   font-size: 500%;
+}
+h2{
+  font-size: 80%;
+}
+@media (max-width:350px){
+  h2{
+    font-size: 75%;
+  }
+  .txt{
+    font-size: 400%;
+  }
 }
