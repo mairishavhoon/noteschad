@@ -6,7 +6,8 @@
 ## Design
 
 The design of the website is fairly simple. The site uses **grids** to display various options. The design is **responsive** and works and looks good on almost every device. The Site's primary **colours are black and red**. The site uses many effects too. The sites's primary **font is Gotham** (Spotify uses this shit).
-![The site](blob:assets/nw.png)
+![The Site](https://github.com/mairishavhoon/noteschad/blob/main/assets/nw.png?raw=true)
+
 
 ## Code
 
