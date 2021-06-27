@@ -1,6 +1,12 @@
 .footer{
     height: 100%;
   }
+.footer-don{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:100px;   
+}
   
   .fa-bars:before{
     color: rgb(255, 255, 255);
@@ -30,10 +36,8 @@
   }
   @font-face {
     font-family: gotham;
-    src: url(Gotham-Black.otf);
+    src: url(assets/Gotham-Black.otf);
   }
-  
-
   
   nav{
     background: rgb(255, 0, 0);
